@@ -94,7 +94,7 @@ export declare class CdkDrag<T = any> implements AfterViewInit, OnDestroy {
     /** Keeps track of the direction in which the user is dragging along each axis. */
     private _pointerDirectionDelta;
     /** Pointer position at which the last change in the delta occurred. */
-    private _pointerPositionAtLastDirectionChange;
+    _pointerPositionAtLastDirectionChange;
     /** Root element that will be dragged by the user. */
     private _rootElement;
     /** Subscription to pointer movement events. */
